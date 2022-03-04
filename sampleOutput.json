@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 300,
+    "articles": [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Factbox: Harsh words, tough action: how companies have rebuffed Russia - Reuters",
+            "description": "Corporate actions to censure Russia after its invasion of Ukraine vary widely and include some measures required by law and some voluntary, with comments ranging from harsh condemnations to more measured promises to review business in the country.",
+            "url": "https://www.reuters.com/business/harsh-words-tough-action-how-companies-have-rebuffed-russia-2022-03-04/",
+            "urlToImage": "https://www.reuters.com/resizer/o9PnQWTn8k8AyrRk7-4-adSpHJY=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/WGS3Y7K3BJJMZODWL4RAWL7SVU.jpg",
+            "publishedAt": "2022-03-04T01:52:00Z",
+            "content": "March 3 (Reuters) - Corporate actions to censure Russia after its invasion of Ukraine vary widely and include some measures required by law and some voluntary, with comments ranging from harsh condem… [+3528 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Android Central"
+            },
+            "author": "jayar.decenella@gmail.com (Jay Bonggolto)",
+            "title": "Russia's declining smartphone market may slip further in 2022 amid Ukraine invasion",
+            "description": "It fell 7% year over year in 2021",
+            "url": "https://www.androidcentral.com/russia-smartphone-market-potential-decline-amid-ukraine-invasion",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/tHyLc5eaEaBt9sTgL9Rg7U-1200-80.jpg",
+            "publishedAt": "2022-03-04T00:53:09Z",
+            "content": "<ul><li>Russia's smartphone market declined 7% year over year in 2021, according to Counterpoint Research.</li><li>Samsung dominated the market with a 30% share, followed by Xiaomi, Apple, and other … [+2183 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "insider@insider.com (Lina Batarags)",
+            "title": "Airbnb is suspending operations in Russia and Belarus, CEO Brian Chesky announces",
+            "description": "Airbnb joins the likes of Apple, General Motors, Ikea, and Shell in pulling out of or suspending operations in Russia.",
+            "url": "https://www.businessinsider.com/airbnb-suspends-operations-russia-belarus-brian-chesky-2022-3",
+            "urlToImage": "https://i.insider.com/6221972204579d001893f663?width=1200&format=jpeg",
+            "publishedAt": "2022-03-04T05:11:20Z",
+            "content": "Airbnb is suspending operations in Russia and Belarus.\r\nAirbnb CEO Brian Chesky, whose verified Twitter account currently displays an icon of the blue-and-yellow Ukrainian flag, made the announcement… [+1151 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Entrepreneur"
+            },
+            "author": "Portia Antonia Alexis",
+            "title": "Luxury Brands Are Attempting to Participate in the Metaverse",
+            "description": "The promising financial and advertising value in the metaverse has brands jumping into the game.",
+            "url": "https://www.entrepreneur.com/article/416779",
+            "urlToImage": "https://assets.entrepreneur.com/content/3x2/2000/1646355263-GettyImages-836410284.jpg",
+            "publishedAt": "2022-03-04T01:00:00Z",
+            "content": "It's not surprising how the word metaverse finds its way into newer technological discourses. We have heard top CEOs such as Mark Zuckerberg and Satya Nadella talk about it. Whether you are a vetted … [+6793 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "heise online"
+            },
+            "author": "Ronald Eikenberg",
+            "title": "Achtung, Handy hört mit: Smartphone-Apps als Wanze",
+            "description": "Lauschen Smartphones permanent mit und geben Gesprächsinhalte dann an Facebook, Google & Co. weiter? Ein Team des Bayerischen Rundfunks hat es ausprobiert.",
+            "url": "https://www.heise.de/news/Achtung-Handy-hoert-mit-Smartphone-Apps-als-Wanze-6517559.html",
+            "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/3/4/2/5/8/2/Darknet-a9da6726ef20c73b.jpg",
+            "publishedAt": "2022-03-04T06:00:00Z",
+            "content": "Kaffeepause: Sie unterhalten sich mit einem Kollegen über ein bestimmtes Thema und kurz darauf erscheinen bei Facebook, Google oder Instagram Werbeanzeigen, die erstaunlich gut dazu passen. Bei ct me… [+9287 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "9to5Mac"
+            },
+            "author": "Filipe Espósito",
+            "title": "Dropbox releases official update for its macOS app with M1 support",
+            "description": "Earlier this year, Dropbox announced a new beta version of its macOS app with native support for the Apple Silicon platform. Now the long-awaited update with optimizations for the M1 chip is finally available for all Mac users.\n more…\nThe post Dropbox release…",
+            "url": "https://9to5mac.com/2022/03/03/dropbox-releases-official-update-for-its-macos-app-with-m1-support/",
+            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/01/Dropbox-M1-Mac.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2022-03-04T02:35:18Z",
+            "content": "Earlier this year, Dropbox announced a new beta version of its macOS app with native support for the Apple Silicon platform. Now the long-awaited update with optimizations for the M1 chip is finally … [+1300 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "AppleInsider"
+            },
+            "author": "news@appleinsider.com (Darryl Boxberger)",
+            "title": "Apple Maps now shows Crimea as part of Ukraine",
+            "description": "A recent Apple Maps update has Crimea reverted to Ukrainian territory on the service for the first time since 2014.After Russia's invasion of Crimea in 2014, Apple initially refused to regard Crimea as belonging to any country. In 2019, it was revised to be R…",
+            "url": "https://appleinsider.com/articles/22/03/04/apple-maps-now-shows-crimea-as-part-of-ukraine",
+            "urlToImage": "https://photos5.appleinsider.com/gallery/34356-61829-Apple-Maps-improvements-xl.jpg",
+            "publishedAt": "2022-03-04T00:10:51Z",
+            "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+1283 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "AppleInsider"
+            },
+            "author": "news@appleinsider.com (Amber Neely)",
+            "title": "New Dropbox update brings support for M1 Macs",
+            "description": "DropBox is now rolling out a new update that adds native support for Apple Silicon machines.When Apple initially announced Apple Silicon in June 2020, many developers began immediately working on bringing native support to the new M1 lineup.However, Dropbox, …",
+            "url": "https://appleinsider.com/articles/22/03/04/new-dropbox-update-brings-support-for-m1-macs",
+            "urlToImage": "https://photos5.appleinsider.com/gallery/46394-90392-000-lead-Dropbox-xl.jpg",
+            "publishedAt": "2022-03-04T03:10:10Z",
+            "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+1032 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.jp"
+            },
+            "author": "塚本直樹",
+            "title": "ロシアでアップル製品がエゲツない値段に…",
+            "description": "アップルがロシア国内での製品販売を取りやめたことで、価格が暴騰中。Macbook Proは現時点で100万円超えという超高価格に。",
+            "url": "https://www.gizmodo.jp/2022/03/apple-products-are-soaring-in-russia.html",
+            "urlToImage": "https://assets.media-platform.com/gizmodo/dist/images/2022/03/04/shutterstock_1370501852-w960.jpg",
+            "publishedAt": "2022-03-04T03:00:00Z",
+            "content": "Apple\r\niPhones.ruMacBook Pro10010016MacBook ProM1 Max2\r\niPhone 13 Pro Max1TB3031Apple Watch Series 72021\r\n!?1\r\niPhons.ru via iMore"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Kiyoshi Tane",
+            "title": "新Mac ProやAR/VRヘッドセットが9日イベントでチラ見せ？「最高峰を解禁」やARロゴから様々な推測",
+            "description": "アップルが9日に開催するスペシャルイベントにつき、タイトルやロゴから発表される新製品が予想されています。",
+            "url": "https://japanese.engadget.com/apple-peek-perfomance-ar-logo-ar-headsets-044518716.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-02/a2b99ba0-95f2-11ec-8ffe-40a3b5fa4bae",
+            "publishedAt": "2022-03-04T04:45:18Z",
+            "content": "202293Peak PerformanceAR\r\nPeak PerformancePeak PerformancePeek\r\niPhone 12Hi,SpeediPhone5G3iPhone SE5G\r\n5iPad AirA15MacM2BloombergMark GurmanPeek Performance3\r\nFor those looking for tea leaves in the … [+719 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yanko Design"
+            },
+            "author": "Sarang Sheth",
+            "title": "This minimal, modular, magnetic wallet comes with its own MagSafe attachment for your iPhone",
+            "description": "This minimal, modular, magnetic wallet comes with its own MagSafe attachment for your iPhoneIn a classic case of designing items for Apple’s ecosystem better than Apple itself, the MagSnap Wallet is a ridiculously slim piece of EDC that...",
+            "url": "https://www.yankodesign.com/2022/03/03/this-minimal-modular-magnetic-wallet-comes-with-its-own-magsafe-attachment-for-your-iphone/",
+            "urlToImage": "https://www.yankodesign.com/images/design_news/2022/03/ultra_thin_modular_MagSnap_wallet_hero.jpg",
+            "publishedAt": "2022-03-04T02:44:51Z",
+            "content": "In a classic case of designing items for Apples ecosystem better than Apple itself, the MagSnap Wallet is a ridiculously slim piece of EDC that was also designed to be attached to the back of your iP… [+3707 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "HYPEBEAST"
+            },
+            "author": "info@hypebeast.com (HYPEBEAST), HYPEBEAST",
+            "title": "NIGO and Pusha T Join Forces for Kanye West Co-Produced Track \"Hear Me Clearly\"",
+            "description": "NIGO and Pusha T have linked up to deliver the newest I KNOW NIGO single, \"Hear Me Clearly.\"Clocking in at just under two-and-a-half minutes, the track also features production from BoogzDaBeast, Luca Starz, ThaMyind and the artist formerly known as Kanye Wes…",
+            "url": "https://hypebeast.com/2022/3/nigo-pusha-t-hear-me-clearly-stream",
+            "urlToImage": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F03%2Fnigo-pusha-t-hear-me-clearly-stream-tw.jpg?w=960&cbr=1&q=90&fit=max",
+            "publishedAt": "2022-03-04T02:55:57Z",
+            "content": "NIGO and Pusha T have linked up to deliver the newest I KNOW NIGO single, “Hear Me Clearly.”\r\nClocking in at just under two-and-a-half minutes, the track also features production from BoogzDaBeast, L… [+791 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "HYPEBEAST"
+            },
+            "author": "info@hypebeast.com (HYPEBEAST), HYPEBEAST",
+            "title": "Ford Is Splitting Its EV Unit From Its Internal Combustion Engine Division",
+            "description": "In hopes of becoming more competitive against both conventional automakers and new electric vehicle producers, Ford is now splitting its business into two, one focusing specifically on EVs and one on vehicles carrying internal combustion engines (ICE).The new…",
+            "url": "https://hypebeast.com/2022/3/ford-plus-model-e-blue-division-split",
+            "urlToImage": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F03%2Fford-plus-model-e-blue-division-split-tw.jpg?w=960&cbr=1&q=90&fit=max",
+            "publishedAt": "2022-03-04T05:50:56Z",
+            "content": "In hopes of becoming more competitive against both conventional automakers and new electric vehicle producers, Ford is now splitting its business into two, one focusing specifically on EVs and one on… [+1044 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Presse-citron"
+            },
+            "author": "Presse-citron",
+            "title": "Boursorama : la banque en ligne vous offre une prime indécente",
+            "description": "Et c'est reparti pour un Pink Week-end chez Boursorama Banque. La première banque en ligne de France offre à tous ses nouveaux clients une prime de 100 euros. Il faut utiliser le code spécial PW100 pour profiter de ce généreux bonus.",
+            "url": "https://www.presse-citron.net/boursorama-la-banque-en-ligne-vous-offre-une-prime-indecente/",
+            "urlToImage": "https://www.presse-citron.net/app/uploads/2020/03/boursorama-banque.jpg",
+            "publishedAt": "2022-03-04T06:45:47Z",
+            "content": "En ce moment, banque en ligne rime avec Boursorama Banque. La filiale du groupe Société Générale cumule plus de 3,3 millions de clients à son actif. Elle est 5 fois plus grande que sa première dauphi… [+5858 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "iMore"
+            },
+            "author": "Joe Wituschek",
+            "title": "Apple has released Safari Technology Preview 141",
+            "description": "What you need to know\n\n\nApple has released Safari Technology Preview 141.\nThe latest version of the experimental browser features a number of bug fixes and performance improvements.\nThe update is only for users running macOS Big Sur or macOS Monterey.\n\n\nTest …",
+            "url": "https://www.imore.com/apple-has-released-safari-technology-preview-141",
+            "urlToImage": "https://www.imore.com/sites/imore.com/files/styles/large/public/field/image/2020/08/macos-big-sur-preview-safari-hero.jpg",
+            "publishedAt": "2022-03-04T00:54:15Z",
+            "content": "The latest version of Safari Technology Preview is here.\r\nToday, Apple released Safari Technology Preview 141. The latest update includes the expected rounds of performance improvements and bug fixes… [+1296 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Engadget Japanese",
+            "title": "ウクライナ侵攻を受けた販売停止によりロシアでアップル製品価格が暴騰",
+            "description": "アップルはウクライナ侵攻を受けて<a target=\"_blank\" href=\"https://japanese.engadget.com/apple-halts-sales-all-products-russia-025100935.html\" rel=\"noopener\">ロシアでの製品販売を停止しました</a>が、それによりロシア国内の小売業者が経済制裁とインフレに備えてか、iPhoneやMacの価格を大幅に引き上げていると報じられています。\r\n\r\nロシアのテック系サイトiPhones.ruによると、アッ…",
+            "url": "https://jp.techcrunch.com/2022/03/04/apple-product-prices-skyrocket-russia/",
+            "urlToImage": "https://jp.techcrunch.com/wp-content/uploads/2022/03/2022-03-04-001-index.jpg?w=800",
+            "publishedAt": "2022-03-04T00:30:06Z",
+            "content": "DIMITAR DILKOFF via Getty Images\r\niPhoneMac\r\niPhones.ru\r\n16MacBook Pro2021M1 Max/RAM 64GB/1TB21138070110\r\niPhone 13 Pro Max1TB3029iPhone 13iPhone 13 mini128GB9Apple Watch Series 71912.9M1 iPad Pro2TB… [+48 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacRumors"
+            },
+            "author": "Juli Clover",
+            "title": "Apple Releases Safari Technology Preview 141 With Bug Fixes and Performance Improvements",
+            "description": "Apple today released a new update for Safari Technology Preview, the experimental browser Apple first introduced in March 2016. Apple designed the ‌Safari Technology Preview‌ to test features that may be introduced into future release versions of Safari.\n\n\n\n\n…",
+            "url": "https://www.macrumors.com/2022/03/03/apple-releases-safari-technology-preview-141/",
+            "urlToImage": "https://images.macrumors.com/t/jHD1aGfXq86Ln_kfzTyWIF68vOo=/2368x/article-new/2021/02/Safari-Technology-Preview-Feature.jpg",
+            "publishedAt": "2022-03-04T00:23:38Z",
+            "content": "Apple today released a new update for Safari Technology Preview, the experimental browser Apple first introduced in March 2016. Apple designed the ‌Safari Technology Preview‌ to test features that ma… [+989 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Techmeme.com"
+            },
+            "author": null,
+            "title": "Outside of Russia, Apple Maps and Weather now display Crimea as a part of Ukraine; in 2019, the apps showed Crimea as a region of Russia for those living there (Filipe Espósito/9to5Mac)",
+            "description": "Filipe Espósito / 9to5Mac:\nOutside of Russia, Apple Maps and Weather now display Crimea as a part of Ukraine; in 2019, the apps showed Crimea as a region of Russia for those living there  —  In 2019, Apple made a controversial change in its Maps and Weather a…",
+            "url": "https://www.techmeme.com/220303/p37",
+            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/03/Crimea-Ukraine-Apple-Maps.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2022-03-04T00:35:07Z",
+            "content": "CB Insights Newsletter\r\n724,948 subscribers get our free newsletter to stay a step ahead on technology trends, venture capital, startups, and the industries of tomorrow."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Lifehacker.ru"
+            },
+            "author": "Дарья Костючкова",
+            "title": "Подкаст «Теперь понятно»: мифы о музыкальном слухе и игре на инструментах",
+            "description": "Хорошая новость для тех, кто хочет приобщиться к искусству, но сомневается в своих способностях: музыкальный слух бывает не только врождённым.",
+            "url": "https://lifehacker.ru/teper-ponyatno-149/",
+            "urlToImage": "https://cdn.lifehacker.ru/wp-content/uploads/2021/07/teper_ponyatno_zastavka_1627566064-1280x640.jpg",
+            "publishedAt": "2022-03-04T05:00:20Z",
+            "content": ", . « ».\r\n , .\r\n « » , : Apple Podcasts, Google Podcasts, YouTube, Anchor, «.», «», Spotify, ."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Srad.jp"
+            },
+            "author": "nagazou",
+            "title": "露国営メディアが勝利記事を誤公開。ウクライナが押収した作戦資料では占領まで15日間と見積",
+            "description": "ロシアによるウクライナへの侵略でロシア側は攻撃開始後、短時間で勝利を見込んでいたようだ。国営ロシア通信は2月26日午前8時1分、ウェブサイト上にロシアが勝利したことを前提とする記事を誤って公開してしまったそうだ。内容はロシアと新たな世界の到来とするもので、ウクライナ以外の占領地域の拡大も示唆するような内容となっている。事前に用意していた記事が設定ミスでアップロードされたものと見られている。記事は短時間で削除されたものの、Internet ArchiveのWayback Machineに補足されていたという。タレコ…",
+            "url": "https://security.srad.jp/story/22/03/03/1526217/",
+            "urlToImage": "https://srad.jp/static/topics/leakage_64.png",
+            "publishedAt": "2022-03-04T03:10:00Z",
+            "content": "moriwaka -- Anonymous Coward"
+        }
+    ]
+}
