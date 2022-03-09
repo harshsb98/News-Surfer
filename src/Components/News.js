@@ -75,7 +75,7 @@ export class News extends Component {
        {!this.state.loading && (this.state.articles).map(
           (element) => {
           return <div className="col-md-4" key={element.url}>
-          <NewsItem  title={element.title?element.title:""} description={element.description?element.description:""} imageUrl={!element.urlToImage?"https://www.thermaxglobal.com/wp-content/uploads/2020/05/image-not-found-300x169.jpg":element.urlToImage} newsUrl={element.url}/>
+          <NewsItem  title={element.title?element.title:""} source={element.source.name} description={element.description?element.description:""} imageUrl={!element.urlToImage?"https://www.thermaxglobal.com/wp-content/uploads/2020/05/image-not-found-300x169.jpg":element.urlToImage} newsUrl={element.url} author={element.author?element.author:"Unknown"} date={element.publishedAt}/>
           </div>
         }
       )}
