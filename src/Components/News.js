@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import NewsItem from './NewsItem'
 import Spinner from './Spinner';
 import PropTypes from 'prop-types'
+import InfiniteScroll from "react-infinite-scroll-component";
+
 
 
 export class News extends Component {
@@ -17,88 +19,91 @@ export class News extends Component {
       category: PropTypes.string,
     }
 
-    constructor(){
-      super();
+     capitalizF = (string) =>{
+      return string.charAt(0).toUpperCase()+string.slice(1);
+    }
+
+    constructor(props){
+      super(props);
       this.state={
         articles: [],
-        loading: false,
-        page: 1
+        loading: true,
+        page: 1,
+        totalResults:0
       }
+      document.title=`${this.capitalizF(this.props.category)} - News Surfer`;
+    }
+
+    async updateNews(){
+      let url= `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=2f9dff7a0ecd4d49b6e770c9ed1e23aa&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+      this.setState({loading:true})
+      let data= await fetch(url);
+      let parsedData= await data.json();
+      this.setState({
+        articles: parsedData.articles,
+        totalResults:parsedData.totalResults,
+        loading:false,
+      })
     }
 
     async componentDidMount(){
-      let url= `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=2f9dff7a0ecd4d49b6e770c9ed1e23aa&page=1&pageSize=${this.props.pageSize}`;
-      this.setState({loading:true})
-      let data= await fetch(url);
-      let parsedData= await data.json();
-      this.setState({articles: parsedData.articles,
-        totalResults:parsedData.totalResults,
-        loading:false
-      })
+      this.updateNews();
     }
 
     handlePrevClick= async ()=>{
-      let url= `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=2f9dff7a0ecd4d49b6e770c9ed1e23aa&page=${this.state.page-1}&pageSize=${this.props.pageSize}`;
-      this.setState({loading:true})
-      let data= await fetch(url);
-      let parsedData= await data.json();
-      this.setState({    
-        page: this.state.page-1,    
-        articles: parsedData.articles,
-        loading:false    
-      })
+    this.setState({page: this.state.page-1});
+    this.updateNews();
     }
 
      handleNextClick= async ()=>{
-      if(!(this.state.page+1 > Math.ceil(this.state.totalResults/this.props.pageSize)))
-      {
-        let url= `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=2f9dff7a0ecd4d49b6e770c9ed1e23aa&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
-        this.setState({loading:true})
-        let data= await fetch(url);
-        let parsedData= await data.json();
-        this.setState({    
-          page: this.state.page+1,    
-          articles: parsedData.articles,
-          loading:false     
-        })}
+  
+     this.setState({page: this.state.page+1});
+     this.updateNews();
     }
+
+    fetchMoreData = async () => {
+    this.setState({
+      page: this.state.page+1
+    })
+    let url= `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=2f9dff7a0ecd4d49b6e770c9ed1e23aa&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+      let data= await fetch(url);
+      let parsedData= await data.json();
+      this.setState({
+        articles: this.state.articles.concat(parsedData.articles),
+        totalResults:parsedData.totalResults,
+      })
+    };
+    
 
 
   render() {
 
     return (
   
-      <div className="container my-3">
-        <h1 className='text-center'>News Surfer - Top Headlines</h1>
+      <>
+        <h1 className='text-center' style={{margin:'35px 0px'}}>News Surfer - Top { 
+        this.capitalizF(this.props.category)} Headlines
+        </h1>
         {this.state.loading && <Spinner />}
-      <div className='row'>
-       {!this.state.loading && (this.state.articles).map(
-          (element) => {
-          return <div className="col-md-4" key={element.url}>
-          <NewsItem  title={element.title?element.title:""} source={element.source.name} description={element.description?element.description:""} imageUrl={!element.urlToImage?"https://www.thermaxglobal.com/wp-content/uploads/2020/05/image-not-found-300x169.jpg":element.urlToImage} newsUrl={element.url} author={element.author?element.author:"Unknown"} date={element.publishedAt}/>
-          </div>
-        }
-      )}
-      </div>
-      <div className="container d-flex justify-content-between">
+        <InfiniteScroll
+          dataLength={this.state.articles.length}
+          next={this.fetchMoreData}
+          hasMore={this.state.articles.length!==this.state.totalResults}
+          loader={<Spinner />}>
+            <div className="container">
 
-      <button type="button" disabled={this.state.page<=1} className="btn btn-dark btn-lg" onClick={this.handlePrevClick}>
-
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" className="bi bi-arrow-left" viewBox="0 0 18 18">
-  <path fillRule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-</svg>&nbsp;
-
-         Previous</button>
-
-      <button type="button" disabled={this.state.page+1 > Math.ceil(this.state.totalResults/this.props.pageSize)} className="btn btn-dark btn-lg" onClick={this.handleNextClick}>
-        Next&nbsp;
-
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" className="bi bi-arrow-right" viewBox="0 0 18 18">
-  <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-</svg>
-      </button>
-      </div>
-      </div>
+        <div className='row'>
+        {(this.state.articles).map(
+            (element) => {
+            return <div className="col-md-4" key={element.url}>
+            <NewsItem  title={element.title?element.title:""} source={element.source.name} description={element.description?element.description:""} imageUrl={!element.urlToImage?"https://www.thermaxglobal.com/wp-content/uploads/2020/05/image-not-found-300x169.jpg":element.urlToImage} newsUrl={element.url} author={element.author?element.author:"Unknown"} date={element.publishedAt}/>
+            </div>
+          }
+        )}
+        </div>
+      </div></InfiniteScroll>
+     
+      </>
     )
   }
 }
